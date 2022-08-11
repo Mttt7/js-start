@@ -18,7 +18,7 @@ function capitalize(str){ //happy
 }
 
 function onlyLetters(str){
-    return /^[[a-zA-Z]+\s*[a-zA-Z]*]*$/.test(str)
+    return /^[a-zA-Z]*\s*[a-zA-Z]*$/.test(str)
 }
 
 function lastLetter(str){
