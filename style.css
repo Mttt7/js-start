@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen{
+    margin: 70px;
+    width: 1400px;
+    height: 500px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen #console{
+    font-size: 50px;
+    width: 700px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+
+
+.screen .inputs{
+    display: flex;
+    gap: 10px;
+}
+.screen .inputs>*{
+    font-size: 60px;
+    margin:10px;
+    width: 350px;
+}
+
+.screen .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 11px;
+    background-color: #26ba64;
+}
+.screen .button{
+    font-size: 50px;
+    background-color: #fa29b1d6;
+}
